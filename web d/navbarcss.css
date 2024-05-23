@@ -1,0 +1,277 @@
+body {
+	margin: 0;
+	font-family: Arial, sans-serif;
+}
+
+header {
+	background-color: #F7EDCF;
+	color: #fff;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 10px 20px;
+}
+
+.logo img {
+	max-height: 80px;
+}
+
+nav ul {
+	list-style-type: none;
+	display: flex;
+	margin: 0;
+	padding: 0;
+	justify-content: flex-end;
+	flex-grow: 1;
+}
+
+nav li {
+	margin-left: 100px;
+    margin-right: 20px;
+	padding: 10px;
+}
+
+nav a {
+	color: #CFA833;
+	text-decoration: none;
+	font-size: 24px;
+	font-weight: bold;
+    font-family: 'Courier Prime', monospace;
+}
+
+nav a:hover {
+	color: #ccc;
+}
+
+main {
+    padding: 40px;
+    background-image: url('4.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 80vh; 
+}
+
+h1{
+    text-align: center;
+    font-family: 'Quattrocento', serif;
+    color: #CFA833;
+    font-size: 36px;
+}
+
+hr{
+    height: 1px;
+    background-color: gray;
+    border: none;
+}
+.text-image-section {
+    display: flex;
+    align-items: center;
+}
+
+.text-container {
+    flex: 1;
+    padding-right: 40px;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.text-container p{
+	font-size: 50px;
+	font-family: 'Quattrocento', serif;
+}
+
+.text-container h2{
+	font-size: 55px;
+	font-family: 'Quattrocento', serif;
+	color:#CFA833;
+}
+
+.image-container {
+    flex: 1;
+}
+
+.image-container img {
+	max-width: 100%;
+    height: auto;
+    width: 100%; 
+    transition: transform 0.3s ease-in-out;
+}
+
+.product-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px;
+    border-radius: 10px;
+  }
+  
+  .product-image {
+    flex: 0 0 50%;
+    max-width: 50%;
+    padding-right: 40px;
+  }
+  
+  .product-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+  }
+  
+  .product-info {
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+  
+  .product-info h2 {
+    font-size: 40px;
+    margin-bottom: 10px;
+    font-family: 'Quattrocento', serif;
+  }
+  
+  .product-info p {
+    margin-bottom: 20px;
+    font-family: 'Courier Prime', monospace;
+  }
+  
+  .quantity-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .quantity-container label {
+    font-size: 14px;
+    font-weight: bold;
+    color: #333;
+    margin-right: 10px;
+  }
+  
+  .quantity-container input[type="number"] {
+    width: 60px;
+    padding: 8px 12px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+  }
+  
+  .quantity-container input[type="number"]:focus {
+    outline: none;
+    border-color: #007bff;
+  }
+  
+  .buy-now-btn {
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: #D4C19A;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    text-decoration: none;
+  }
+  
+  .buy-now-btn:hover {
+    background-color: #F7EDCF;
+    color: #CFA833;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .buy-now-btn:active {
+    transform: translateY(0);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+
+  .spacer{
+    height: 200px;
+  }
+
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+  }
+
+
+  .container p{
+    font-family: 'Courier Prime', monospace;
+    color:#737373;
+  }
+
+  .content-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .text-section {
+    margin-bottom: 2rem;
+  }
+  
+  .video-container {
+    width: 300px;
+    height: 400px;
+    overflow: hidden;
+  }
+  
+  .video-container video {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+
+  footer {
+	background-color: #F7EDCF;
+	color: #CFA833;
+	padding: 40px 0;
+	font-family: 'Courier Prime', monospace;
+	text-align: center;
+  }
+  
+  .footer-container {
+	max-width: 500px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+  }
+  
+  .about-us,
+  .contact-us {
+	flex-basis: 100%;
+	text-align: center;
+  }
+  
+  .about-us h3 a,
+  .contact-us h3 a {
+	font-size: 18px;
+	color: #CFA833;
+	text-decoration: none;
+  }
+  
+  .about-us h3 a:hover,
+  .contact-us h3 a:hover {
+	color: #ccc;
+  }
+
+  .footer-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.footer-content p {
+    margin: 10px 0;
+	font-family: 'Courier Prime', monospace;
+}

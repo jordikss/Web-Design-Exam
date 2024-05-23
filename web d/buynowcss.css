@@ -1,0 +1,110 @@
+body {
+	margin: 0;
+	font-family: Arial, sans-serif;
+}
+
+header {
+	background-color: #F7EDCF;
+	color: #fff;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 10px 20px;
+}
+
+.logo img {
+	max-height: 80px;
+}
+
+nav ul {
+	list-style-type: none;
+	display: flex;
+	margin: 0;
+	padding: 0;
+	justify-content: flex-end;
+	flex-grow: 1;
+}
+
+nav li {
+	margin-left: 100px;
+    margin-right: 20px;
+	padding: 10px;
+}
+
+nav a {
+	color: #CFA833;
+	text-decoration: none;
+	font-size: 24px;
+	font-weight: bold;
+    font-family: 'Courier Prime', monospace;
+}
+
+nav a:hover {
+	color: #ccc;
+}
+
+main {
+    padding: 206px;
+    background-image: url('3.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 30vh; 
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30vh;
+  }
+  
+  
+h1{
+    color:#737373;
+    font-family: 'Courier Prime', monospace;
+}
+
+  footer {
+	background-color: #F7EDCF;
+	color: #CFA833;
+	padding: 40px 0;
+	font-family: 'Courier Prime', monospace;
+	text-align: center;
+  }
+  
+  .footer-container {
+	max-width: 500px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+  }
+  
+  .about-us,
+  .contact-us {
+	flex-basis: 100%;
+	text-align: center;
+  }
+  
+  .about-us h3 a,
+  .contact-us h3 a {
+	font-size: 18px;
+	color: #CFA833;
+	text-decoration: none;
+  }
+  
+  .about-us h3 a:hover,
+  .contact-us h3 a:hover {
+	color: #ccc;
+  }
+
+  .footer-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.footer-content p {
+    margin: 10px 0;
+	font-family: 'Courier Prime', monospace;
+}
